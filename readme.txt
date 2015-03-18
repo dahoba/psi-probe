@@ -31,8 +31,21 @@
       mvn install:install-file \
       -Dfile=/path/to/ojdbc14.jar \
       -DpomFile=/path/to/ojdbc14-pom.xml
-
-4. Run Maven.
+      
+4. Prepare Oracle UCP dependencies
+  * Download ucp.jar from this URL:
+    http://www.oracle.com/technetwork/database/enterprise-edition/downloads/ucp-112010-099129.html
+  * create a ucp-pom.xml 
+  * Install ucp.jar to Maven's local repository
+    
+5. Prepare JMXRMI 1.2.1 dependencies (found only pom from public maven repository)
+  * Download jmxrmi.jar from this URL:
+    http://www.oracle.com/technetwork/java/javasebusiness/downloads/java-archive-downloads-java-plat-419418.html#7657-jmx-1.2.1-oth-JPR
+    
+  * create a jmxri-1.2.1-pom.xml
+  * Install jmxrmi.jar to Maven's local repository 
+  
+6. Run Maven.
 
    Execute the following command from the PSI Probe base directory (where this
    readme.txt file resides):
