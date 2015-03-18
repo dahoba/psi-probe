@@ -38,7 +38,7 @@
   * create a ucp-pom.xml 
   * Install ucp.jar to Maven's local repository
     
-5. Prepare JMXRMI 1.2.1 dependencies (found only pom from public maven repository)
+5. Prepare jmxrmi 1.2.1 dependencies (found only pom from public maven repository)
   * Download jmxrmi.jar from this URL:
     http://www.oracle.com/technetwork/java/javasebusiness/downloads/java-archive-downloads-java-plat-419418.html#7657-jmx-1.2.1-oth-JPR
     
